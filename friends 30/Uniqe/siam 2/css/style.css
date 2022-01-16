@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+/* #2c3e50 
+#3498db */
+}
+/* =====
+reuseabel css  stert
+====== */
+
+}
+.reuse-title h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reuse-title p{
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reuse-title p::after {
+    position: absolute;
+    content: '';
+    width: 127px;
+    height: 3px;
+    background: #00dbde;
+    bottom: 10px;
+    top: auto;
+    right: 0;
+    left: -2px;
+    margin: auto;
+    z-index: -10;
+}
+
+/* =====
+reuseabel css end
+====== */
+
+
+/*=============
+ header section stert 
+============= */
+#header{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2c3e50,#3498db);
+}
+.navbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+   text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-nav{
+    margin: 0 0 0 auto;
+    font-size: 18px !important;
+    font-family: "Poppins";
+    color: #fff !important;
+}
+.navbar-nav li a{
+   
+    color: #fff !important;
+}
+.main-header{
+    color: #fff;
+    padding-top: 27%;
+    padding-bottom: 27%;
+    text-align: center;
+}
+.main-header h1{
+    padding: 20px;
+    font-size:55px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-header p{
+    
+    font-size:16px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+.bottom-img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.bottom-img img{
+    width: 100%;
+}
+.text{
+    color:#00dbde ;
+}
+/*=============
+ header section end
+============= */
+/*=============
+  About section stert 
+============= */
+#about-section{
+    width: 100%;
+    height: 100%;
+}
+.about-content{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.about-title{
+    padding-top: 20px;
+}
+.colam-one{
+   
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s !important;
+}
+.colam-one:hover{
+    color:#fff;
+    background:#3498db ;
+    border-radius: 10px;
+
+}
+.about-text-first{
+    padding: 50px;
+    font-size:20px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.adress h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-style:initial;
+    padding-bottom: 10px;
+}
+.about-img{
+    float: right;
+}
+.about-img img{
+   width: 100%;
+   border-radius: 10px;
+}
+/*=============
+ About section end 
+============= */
+
+/*=============
+Services section Stert
+============= */
+#service{
+    width: 100%;
+    height: 100%;
+    background-color: #2c3e50;
+    color: #fff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.service-area{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.service-title{
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+}
+.single-service{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(#2c3e50,#3498db);
+    text-align: center;
+    border-radius: 12px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.single-service:hover{
+    background: linear-gradient(#007991,#78ffd6); 
+    color: #2c3e50;
+}
+.service-icon{
+    text-align: center;
+    font-size: 45px;
+   padding:20px;
+}
+.service-icon .fas{
+    
+}
+.service-text h3{
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.service-text p{
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    padding: 10px    ;
+}
+/*=============
+Services section end 
+============= */
+
+
+/*=============
+Testimonial section Start  
+============= */
+#testimonial{
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.test-title{
+    margin-bottom: 20px;
+}
+.testimonial-areap{
+
+}
+.hero{
+    width: 550px ;
+    height: 300px ;
+    background: #007991;
+    border-radius: 50px 15px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.testimonial-img{
+    width: 100%;
+    height: 100%;
+    position: absolute ;
+    top: 300px ;
+    left: 0;
+    right: -450px;
+    bottom: -100px;
+    margin: auto;
+}
+.testimonial-img img{
+    width: 100px !important;
+    height: 100px ;
+    border-radius: 50%;
+    padding: 10px;
+}
+.testimonial-text{
+    margin-top: 50px;
+    padding: 10px;
+}
+.testimonial-text p{
+   font-size: 15px;
+   font-weight: 300;
+   
+}
+/*=============
+Testimonial section end 
+============= */
+
+/*=============
+Contact section Start 
+============= */
+#contect-section{
+    width: 100%;
+    height: 100%;
+    background: #3498db;
+}
+.contact-title{
+    color: #fff;
+}
+.contact-weve-img{
+    width: 100%; 
+    height: 100%;
+}
+.contact-weve-img img{
+    width: 100%; 
+}
+.contact-area{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.socila-icon{
+    margin: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.socila-icon a{
+    margin: 15px;
+    color: #fff;
+    transition: .5s;
+}
+.socila-icon a:hover{
+    
+    color:  #2c3e50;
+}
+hr{
+    color: #fff !important;
+}
+.name{
+    padding-bottom: 10px;
+    color: #fff;
+}
+/*=============
+Contact section end 
+============= */
